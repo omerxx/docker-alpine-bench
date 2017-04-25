@@ -6,7 +6,7 @@ Can be also taken from docker hub:
 ```bash
 docker pull omerxx/alpine-bench
 
-docker run 8080:8080 omerxx/apline-bench
+docker run -p 8080:8080 omerxx/apline-bench
 
 curl 127.0.0.1:8080
 ```
